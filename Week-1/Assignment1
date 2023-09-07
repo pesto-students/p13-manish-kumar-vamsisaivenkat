@@ -1,0 +1,77 @@
+Assignment - 01 (web fundamentals)
+
+- [ ] What is a protocol stack, and how is it used in web development?
+- [ ] Answer-
+protocol stack was basically layers of protocol’s which are stacked together . In which each layer is responsible for each specific task . example of the one of the popular protocol stack is TCP / IP .
+
+LAYERS OF THE TCP/IP Protocol stack are Physical layer, Data link layer , Network layer , Transport layer , Session layer, Applicaiton/Presentation layer.
+In web development Protocol stack is used to ensure the data exchange between web server and browser is happening most reliably and effecently. 
+
+Since each layer have its own layer significance they are . 
+
+Physical Layer :- This layer is responsible for physical data transfer over the internet/network.
+Data link Layer :- This layer is responsible for detecting errors if any and correcting them.
+Network Layer:-  This layer is responsible for routing data packets to their destination and detecting if any missing packets and ensure their delivery.
+Transport Layer :- This layer is responsible for marinating and establishing the connection between two devices.
+Session Layer:- This layer is responsible for handling the data between device’s.
+Presentation Layer:- This layer is responsible for converting the data into the readable formate.
+Application Layer:- This layer is responsible for providing services to applications.
+
+
+
+
+- [ ] What are the different types of web servers, and how do they differ in terms of functionality and performance?
+- [ ] Answer-
+ 
+There are so many different types of web servers available. it depends on the use case which need to be used and each of them have their Own strengths and weaknesses . 
+Examples : - Apache, Microsoft IIS , Nginx ,Apace Tomcat ..etc.
+
+Apache:- This is one of the most popular in among all and this is open source and highly customisable  . We use Apache if we are having heigh volume of traffic.
+
+Microsoft IIS :- This is develop and maintained by the Microsoft this good choice if you going to use the windows based web service.
+
+Nginx:- This is newer version of the web server . This is the good choice if we are going to have concurrent and heigh volume connections.
+
+Apace Tomcat : This is good for web service’s that uses the java.
+
+
+
+- [ ] What is web hosting, and what are the different types of hosting services available for websites?
+- [ ] Answer-
+In web development hosting refers to making a web service available on the internet/network. There are several types of hosting .they are Shared Hosting, VPS Hosting,Dedicated Hosting, Could Hosting, Managed Hosting.
+
+Shared Hosting :- in this different websites will share same resources like storage and managing power 
+
+VPS Hosting:- in this we will get the private virtual server and its more secured and more responsive than the shared hosting. Here we will have more control over the server security and settings . since these hosted over the dedicated private virtual server
+
+Dedicated Hosting:- in this we will have more resources , processing power , security , customization and control over server settings . Since we will be owning the physical sever dedicatedly for the website
+
+Cloud Hosting:- here we will be hosting in a virtual compartments of a server . This is the most reliable and scalable .
+
+Managed Hosting: here we will deployment of the website is taken care of the hosting provider or an third party service provider
+
+
+
+- [ ] What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+- [ ] Answer-
+Scaling is refers to increasing the capacity of server to handle the more users and traffic , requests . This can be done is two ways horizontal hosting and vertical hosting. 
+
+In vertical hosting we will scale he servers vertically by increasing the power of an existing server by adding more physical power to server like Ram ,CPU and etc ..
+
+In Horizontal hosting We will scale the server horizontally by increasing the no of servers instead of increasing the capacity of existing server.
+
+
+
+- [ ] What is SEO (Search Engine Optimization), and how can web developers optimise their websites for better search engine rankings?
+- [ ] Answer-
+SEO is a process where we will be improving the web site ranking in search engine results page . This can be done by both developer and website owner.
+
+Web developers can optimise their website ranking by doing the fellowing thing . 
+Using right keywords.
+Optimising the title page and meta description.
+Creating heigh quality content.
+Building backlinks.
+Optimise the website for technical SEO like making it more mobile friendly and craw-able by search engines 
+
+
+

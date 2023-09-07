@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index page</title>
+</head>
+<link rel="StyleSheet" href="Form.css"></link>
+<body>
+  <header>
+  </header>
+  <main>
+   <form method="post" enctype="multipart/form-data">
+    <div>
+    <label for="fullName">Full Name:</label>
+    
+    <input id="fullName" required type="text"/>
+    </div>
+<br/>
+   <div>
+    <label>Email Id:</label>
+
+    <input form="about" id="emilId" required type="text"/>
+    </div>
+    <br/>
+    <div>
+    <label>About:</label>
+    <textarea  id="about" rows="3" cols="50"></textarea>
+</div>
+<br/>
+<div>
+    <label for="Profile">Profile</label>
+    <input id="Profile" type="file" value="image"/>
+</div>
+<br/>
+<div>
+    <input type="submit"/>
+</div>
+   </form>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
+</html>
